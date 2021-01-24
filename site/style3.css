@@ -1,0 +1,18 @@
+.flexbok {
+	display: flex;
+	background-color: #ffffff;
+	flex-wrap: wrap;
+	color: #000000;	
+	font-size: 20px;
+	text-align: center;
+}
+.flexbok div {
+	width: 18%;
+	margin: 1px;
+	padding: 10px;
+
+}
+.flexbok div img {
+	width: 300px;
+	height: 250px;
+}

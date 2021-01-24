@@ -1,0 +1,39 @@
+div {
+	background-color: #ffffff;
+	width: 650px;
+	margin: 10px;
+}
+div time{
+	background-color: #ff7045;
+	text-align: center;
+	padding: 10px;
+	border-radius: 60px;
+	margin-top:  10px;
+	float: left;
+	width: 5.8%
+}
+
+div h2 {
+	margin: 10px;
+	float: right;
+	padding-bottom: 20px;
+	width: 85%;
+}
+div p{
+	clear: both;
+	opacity: 0.3;
+}
+div p a{
+	color: #000000;
+}
+
+p.pcenter {
+
+	border-style: hidden hidden hidden solid;
+	border-width: 5px;
+	padding: 20px;
+}
+
+.boder_left{
+	padding-left: 20px;
+}

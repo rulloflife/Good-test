@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Form with Validation</title>
+</head>
+<body>
+	<h1 align="center">TASK 4: Register Form with Validation</h1>
+	<h2>Register Form</h2>
+	<table>
+		<form>
+			<tr>
+				<td>
+					<label for="email" >Email* </label>
+				</td>
+				<td>
+					<input type="text" name="email"><br>
+				</td>	
+			</tr>
+			<tr>
+				<td>
+					<label for="password">Password* </label>
+				</td>
+				<td>
+					<input type="password" name="password" minlength="8" required>
+				</td>
+				<td>
+					<label for="confirm">Confirm Password* </label>
+				</td>
+				<td>
+					<input type="password" name="confirm" minlength="8" required>
+				</td>
+			</tr>
+			<tr>
+				<td>(Min Lengh 8 charachters)</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="phone">Phone* </label>
+				</td>
+				<td>
+					<input type="tel" name="phone">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label for="sex">Sex </label>
+				</td>
+				<td>
+					<input type="radio" name="sex" value="Male"> Male
+					<input type="radio" name="sex" value="Female"> Female
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="reset" value="Clear">
+					<input type="submit" value="Send">
+				</td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

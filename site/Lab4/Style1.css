@@ -1,0 +1,22 @@
+.main {
+	width: 760px;
+	padding: 10px;
+}
+
+.title {
+	background-color: #9e9e9e;
+	text-align: center;
+	padding: 15px;
+}
+
+div.pic img {
+	padding-left: 20px;
+	
+}
+div.desc {
+	padding: 0;
+	text-align: center;
+}
+p {
+	font-size: 26px;
+}
